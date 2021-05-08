@@ -995,15 +995,15 @@ textarea {
         border: 1px solid blue;
     } */
     #div6 .row div:nth-child(2){
-        margin-left: 80px;
+        margin-left: 90px;
         margin-top: -100px;
     }
     #div6 .row div:nth-child(3){
-        margin-left: 150px;
+        margin-left: 170px;
         margin-top: -100px;
     }
     #div6 .row div:nth-child(4){
-        margin-left: 220px;
+        margin-left: 250px;
         margin-top: -100px;
     }
     #div7 h3 {
@@ -1053,7 +1053,7 @@ textarea {
         width: 80%;
         display: inline-block;
         border-radius: 10px;
-        margin-right: -30px;
+        margin-right: -80px;
     }
     #super-container #wrapper #slides:nth-child(2) {
         margin-left: 150px;
