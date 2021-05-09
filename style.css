@@ -878,6 +878,7 @@ textarea {
         margin-top: -30px;
         border-radius: 10px;
         margin-left: -10px;
+        padding: 10px;
     }
     #img2 img {
         width: 142px;
@@ -894,7 +895,7 @@ textarea {
         border-radius: 10px;
         margin-top: -155px;
         margin-left: 50%;
-        
+        padding: 10px;
     }
     #img3 img {
         width: 142px;
@@ -909,6 +910,7 @@ textarea {
         margin-top: -20px;
         margin-left: -10px;
         border-radius: 10px;
+        padding: 10px;
     }
     #butt3 {
         position: absolute;
@@ -958,7 +960,7 @@ textarea {
         /* border: 1px solid red; */
         margin-top: 70px;
         background-position-x: 0px;
-        /* background-position-y: 150px; */
+        background-position-y: 150px;
         text-align: justify;
         height: auto;
         background-size: 800px;
@@ -972,16 +974,17 @@ textarea {
         margin-bottom: 20px;
     }
     #div6 {
-        height: 0px;
+        height: auto;
     }
     #back-img img {
         width: 100%;
-        height: 150px;
+        height: 400px;
     }
     #word1 {
         /* border: 1px solid; */
-        width: 30%;
+        width: 100%;
         height: 100px;
+        border: 1px solid white;
     }
     #word1 p {
         height: 0%;
@@ -994,17 +997,33 @@ textarea {
         margin-left: 100px;
         border: 1px solid blue;
     } */
+    #div6 .row div:nth-child(1) {
+        /* border: 1px solid black; */
+        /* width: 20%; */
+    }
+    #div6 .row div {
+        /* width: 100%; */
+    }
     #div6 .row div:nth-child(2){
-        margin-left: 90px;
-        margin-top: -100px;
+        /* margin-left: 90px;
+        margin-top: -100px; */
+        /* width: 20%; */
+        /* border: 1px solid white; */
     }
     #div6 .row div:nth-child(3){
-        margin-left: 170px;
-        margin-top: -100px;
+        /* margin-left: 170px;
+        margin-top: -100px; */
+        /* width: 20%; */
+        /* border: 1px solid black; */
     }
     #div6 .row div:nth-child(4){
-        margin-left: 250px;
-        margin-top: -100px;
+        /* margin-left: 250px;
+        margin-top: -100px; */
+        /* width: 20%; */
+        /* border: 1px solid blue; */
+    }
+    #div7 {
+        padding-top: 0%;
     }
     #div7 h3 {
         margin-top: 40px;
@@ -1053,7 +1072,8 @@ textarea {
         width: 80%;
         display: inline-block;
         border-radius: 10px;
-        margin-right: -80px;
+        margin-right: -30%;
+        margin-left: 15%;
     }
     #super-container #wrapper #slides:nth-child(2) {
         margin-left: 150px;
@@ -1080,39 +1100,69 @@ textarea {
         margin-top: 0%;
     } */
     #div9 {
-        height: 600px;
+        height: auto;
+        width: 100%;
     }
     #div9 p {
         font-size: 26px;
         font-weight: bolder;
         text-align: center;
     }
+    #div9 div {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    #div9-img1 img, #div9-img2 img, #div9-img3 img,#div9-img4 img, #div9-img5 img {
+        margin-left: 30%;
+    }
+    #div9-img1 {
+        /* border: 1px solid red; */
+        display: block;
+        margin: 0;
+        margin-bottom: 20px;
+    }
     #div9-img2 {
-        margin-left: 10px;
+        /* border: 1px solid red; */
+        display: block;
+        margin: 0px;
     }
     #div9-img3 {
-        margin-left: -285px;
-        margin-top: 180px;
+        /* border: 1px solid red; */
+        display: block;
+        margin: 0;
     }
     #div9-img4 {
-        margin-left: 10px;
-        margin-top: 180px;
+        /* border: 1px solid red; */
+        display: block;
+        margin: 0;
     }
     #div9-img5 {
-        margin-left: -290px;
-        margin-top: 350px;
+        /* border: 1px solid red; */
+        display: block;
+        margin: 0;
     }
     #div10 {
         display: block;
         margin-left: -70px;
         width: 80%;
     }
+    #div10 h6 {
+        text-align: center;
+    }
     #playstore {
-        margin-left: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
         margin-top: 20px;
+        width: 200px;
     }
     #applestore {
         margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
     #contact {
         /* border: 1px solid black; */
@@ -1138,12 +1188,14 @@ textarea {
     }
     textarea {
         width: 250px;
+        transform: translateX(-120px);
     }
     #butt6 {
-        transform: translate(170px, 30px);
+        transform: translate(80px, 30px);
     }
     #div11 {
         height: 600px;
+        text-align: center;
     }
     
 }
