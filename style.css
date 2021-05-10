@@ -932,7 +932,9 @@ textarea {
     }
     #div4 {
         /* border: 1px solid blue; */
-        background-position-x: -600px;
+        /* background-position-x: -330px; */
+        background-image: none;
+        background-color: rgb(245, 245, 253);
         height: auto;
         padding-bottom: 20px;
     }
