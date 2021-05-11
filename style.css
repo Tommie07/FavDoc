@@ -13,11 +13,11 @@
     width: 100%;
     display: flex;
     align-items: center;
-    border: 1px solid rgba(232, 231, 227, 0.9);
+    /* border: 1px solid rgba(255, 255, 255, 0.5); */
     position: fixed;
     padding-left: 8%;
     padding-right: 8%;
-    background-color: rgba(232, 231, 227, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
 } 
 .logo {
     /* width: 50px; */
@@ -98,6 +98,9 @@ nav ul li a:hover {
     margin-top: -30px;
     width: 100%;
 }
+#hide-img {
+    display: none;
+}
 #word {
     margin-top: 30px;
     padding-top: 150px;
@@ -110,6 +113,9 @@ nav ul li a:hover {
 #text h1 {
     color: #3197C2;
 }
+/* #text p {
+    font-size: 30px;
+} */
 #div2 {
     /* border: 1px solid red; */
     padding-left: 8%;
@@ -160,10 +166,10 @@ nav ul li a:hover {
     margin-left: 17px;
 }
 #subDiv1 h6 {
-    font-size: 17px;
+    font-size: 20px;
 }
 #subDiv1 p {
-    font-size: 10px;
+    font-size: 15px;
 }
 #subDiv2 {
     background-color: rgba(49, 151, 194, 0.7);
@@ -183,7 +189,7 @@ nav ul li a:hover {
     font-size: 17px;
 }
 #subDiv2 p {
-    font-size: 10px;
+    font-size: 12px;
 }
 #subDiv3 {
     background-color: rgba(49, 151, 194, 0.7);
@@ -203,7 +209,7 @@ nav ul li a:hover {
     font-size: 17px;
 }
 #subDiv3 p {
-    font-size: 10px;
+    font-size: 12px;
 }
 #div4 {
     /* border: 1px solid red; */
@@ -864,10 +870,21 @@ textarea {
     #div1 {
         width: 100%;
         padding-right: 0%;
-        height: auto
+        height: auto;
+        background-image: none;
+    }
+    #hide-img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin-left: -10px;
+        margin-bottom: 20px;
     }
     #butt1, #butt2 {
         margin-top: 10px;
+    }
+    #butt2 {
+        border: 1px solid #B6E9FF;
     }
     #div3 {
         /* border: 1px solid red; */
@@ -883,12 +900,11 @@ textarea {
         width: 50%;
         height: 150px;
         margin-left: -10px;
-        margin-top: 80px;
-        
+        margin-top: 80px;   
     }
     #subDiv1 {
         width: 47%;
-        height: 130px;
+        height: 150px;
         margin-left: 0;
         margin-top: -30px;
         border-radius: 10px;
@@ -899,16 +915,16 @@ textarea {
         width: 50%;
         height: 150px;
         margin-left: 50%;
-        margin-top: -380px;
+        margin-top: -420px;
         
     }
     #subDiv2 {
         width: 47%;
-        height: 130px;
+        height: 150px;
         margin-left: 0;
-        margin-top: -30px;
+        margin-top: -50px;
         border-radius: 10px;
-        margin-top: -155px;
+        margin-top: -170px;
         margin-left: 52%;
         padding: 10px;
     }
@@ -921,7 +937,7 @@ textarea {
     }
     #subDiv3 {
         width: 47%;
-        height: 130px;
+        height: 190px;
         margin-top: -20px;
         margin-left: -5px;
         border-radius: 10px;
@@ -933,13 +949,13 @@ textarea {
     #butt3-hide {
         display: block;
         width: 50%;
-        height: 255px;
+        height: 315px;
         border: 1px solid rgba(49, 151, 194, 0.7);
         background-color: rgba(49, 151, 194, 0.7);
         backdrop-filter: blur(10px);
         border-radius: 10px;
         margin-left: 50%;
-        margin-top: -255px;
+        margin-top: -315px;
     }
     #butt3-hide a {
         color: white;
@@ -985,12 +1001,13 @@ textarea {
     #div5 {
         /* border: 1px solid red; */
         margin-top: 70px;
-        background-position-x: 0px;
-        background-position-y: 150px;
+        /* background-position-x: 0px;
+        background-position-y: 150px; */
         text-align: justify;
         height: auto;
-        background-size: 800px;
-        background-repeat: no-repeat;
+        background-image: none;
+        /* background-size: 800px;
+        background-repeat: no-repeat; */
     }
     #chooseUs h3 {
         margin-top: -220px;
@@ -1139,31 +1156,34 @@ textarea {
         /* padding-right: 10%; */
         /* padding-top: 50px; */
         background-color: #EEFDE7;
-        padding-left: 10%;
-        padding-bottom: 12%;
+        /* padding-left: 10%; */
+        /* padding-bottom: 19%; */
+        padding-top: 35px;
     }
     #div9-img3 {
         margin-left: 0;
         padding-top: 50px;
         background-color: #EEFDE7;
-        padding-left: 10%;
+        padding-left: 20%;
         padding-bottom: 60px;
     }
     #div9-img4 {
         margin-left: 75%;
         margin-top: -212px;
         background-color: #EEFDE7;
-        padding-left: 10%;
-        padding-bottom: 80px;
+        padding-left: 20%;
+        /* padding-top: 20%; */
+        padding-bottom: 76px;
     }
     #div9-img5 {
         margin-left: 0;
         background-color: #EEFDE7;
-        padding-left: 10%;
+        padding-left: 20%;
+        margin-top: 50px;
     }
     #div10 {
         display: block;
-        margin-left: -70px;
+        margin-left: -60px;
         width: 80%;
     }
     #div10 h6 {
@@ -1265,7 +1285,7 @@ textarea {
     }
     #subDiv1 {
         width: 47%;
-        height: auto;
+        height: 110px;
         margin-left: 0;
         margin-top: -50px;
         border-radius: 10px;
@@ -1276,16 +1296,16 @@ textarea {
         width: 50%;
         height: 150px;
         margin-left: 50%;
-        margin-top: -350px;
+        margin-top: -300px;
         
     }
     #subDiv2 {
         width: 47%;
-        height: auto;
+        height: 110px;
         margin-left: 0;
         margin-top: -30px;
         border-radius: 10px;
-        margin-top: -155px;
+        margin-top: -145px;
         margin-left: 52%;
         padding: 10px;
     }
@@ -1298,7 +1318,7 @@ textarea {
     }
     #subDiv3 {
         width: 47%;
-        height: auto;
+        height: 110px;
         margin-top: -20px;
         margin-left: 0px;
         border-radius: 10px;
@@ -1538,7 +1558,7 @@ textarea {
     } 
     #div10 {
         display: block;
-        margin-left: -70px;
+        margin-left: -5%;
         width: 80%;
         margin-top: 200px;
     }
@@ -1561,34 +1581,79 @@ textarea {
     #contact {
         /* border: 1px solid black; */
         margin-top: -50px;
+        width: 50%
     }
     #social {
         /* border: 1px solid red; */
-        margin-left: 0px;
-        margin-top: 20px;
+        /* margin-left: 0px;
+        margin-top: 20px; */
+        width: 50%;
+        margin-left: 50%;
+        margin-top: -113px;
+        height: 113px;
     }
     #social h6 {
         margin-bottom: 20px;
     }
     #message {
         /* border: 1px solid green; */
-        margin-left: -5px;
-        margin-top: 50px;
+        /* margin-left: -5px;
+        margin-top: 50px; */
+        width: 50%;
+        margin-top: 20px;
     }
     #textbox {
         /* border: 1px solid blue; */
         margin-top: 0px;
         margin-left: -5px;
+        margin-left: 54%;
+        margin-top: -99px;
     }
     textarea {
-        width: 250px;
+        width: 220px;
         transform: translateX(-120px);
     }
     #butt6 {
-        transform: translate(80px, 30px);
+        transform: translate(55px, 30px);
     }
     #div11 {
-        height: 600px;
+        /* height: 600px; */
         text-align: center;
+    }
+}
+@media only screen and (min-width:471px) and (max-width:540px) {
+    #contact {
+        width: 50%;
+        /* border: 1px solid; */
+    }
+    #social {
+        width: 50%;
+        /* border: 1px solid; */
+        margin-left: 50%;
+        margin-top: -113px;
+        height: 113px;
+    }
+    #message {
+        width: 50%;
+        /* border: 1px  solid; */
+        margin-left: 0%;
+        margin-top: 30px;
+    }
+    #textbox {
+        margin-top: 0px;
+        margin-left: -5px;
+        margin-left: 54%;
+        margin-top: -119px;
+    }
+    textarea {
+        width: 200px;
+        transform: translateX(-110px);
+        height: 113px;
+    }
+    #butt6 {
+        transform: translate(45px, 45px);
+    }
+    #div11 {
+        height: auto;
     }
 }
