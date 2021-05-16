@@ -113,9 +113,9 @@ nav ul li a:hover {
 #text h1 {
     color: #3197C2;
 }
-/* #text p {
-    font-size: 30px;
-} */
+#text p {
+    font-size: 20px;
+}
 #div2 {
     /* border: 1px solid red; */
     padding-left: 8%;
@@ -124,8 +124,11 @@ nav ul li a:hover {
     padding-bottom: 5%;
     width: 100%;
 }
-#service h3 {
+#service h1 {
     color: #B93737;
+}
+#service p {
+    font-size: 20px;
 }
 #butt3 {
     padding: 10px;
@@ -261,7 +264,7 @@ nav ul li a:hover {
     padding-right: 12%;
     margin-top: 200px;
 }
-#about h3 {
+#about h1 {
     color: #B93737;
 }
 #profDoc img {
@@ -304,10 +307,12 @@ nav ul li a:hover {
 #chooseUs {
     margin-top: 250px;
 }
-#chooseUs h3 {
+#chooseUs h1 {
     color: #B93737;
     margin-bottom: 30px;
-    
+}
+#profDoc #flex img.last-img {
+    height: auto;
 }
 #butt5 {
     width: 200px;
@@ -442,6 +447,9 @@ nav ul li a:hover {
     margin-top: 60px;
     padding-top: 20px;
 }
+#div9 h1 {
+    color: #B93737;;
+}
 #images {
     border: 1px solid #EEFDE7;
     /* width: 139px;
@@ -500,6 +508,8 @@ nav ul li a:hover {
 }
 .mySlides-fade {
     display: none;
+    /* border: 1px solid red; */
+    padding-left: 30%;
 }
 .mySlides-fade img {
     vertical-align: middle;
@@ -586,7 +596,7 @@ textarea {
     border-radius: 10px;
     background-color: #B93737;
     border: 1px solid #B93737;
-    margin-left: 85%;
+    margin-left: 220px;
     margin-top: 30px;
 }
 #butt6 a {
