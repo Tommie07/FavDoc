@@ -390,6 +390,19 @@ nav ul li a:hover {
     border-radius: 30px;
     margin-top: 20px;
 }
+#extra-butt {
+    padding: 10px;
+    width: 200px;
+    background-color: #3197C2;
+    border-radius: 10px;
+    border: 1px solid #3197C2;
+    margin-top: 0px;
+    height: 60px;
+}
+#extra-butt a {
+    color: white;
+    text-decoration: none;
+}
 #super-container {
     width: 50%;
     margin: 20px auto;
@@ -461,6 +474,50 @@ nav ul li a:hover {
     margin-left: 60px;
     margin-top: 10px;
 }
+#super-container1 {
+    width: 50%;
+    margin: 20px auto;
+}
+#super-container1 #wrapper1 {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+#super-container1 #wrapper1 #slides1 {
+    height: 120px;
+    width: 80%;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: -30px;
+}
+#slides1 #diana {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+}
+.mySlides-fade {
+    display: none;
+}
+.mySlides-fade img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.active {
+  background-color: #717171;
+}
+#div9 div.slideshow-container {
+    width: 50%;
+    margin-left: 300px;
+}
 #div10 {
     display: flex;
     border: 1px solid #F8F9FA;
@@ -529,7 +586,7 @@ textarea {
     border-radius: 10px;
     background-color: #B93737;
     border: 1px solid #B93737;
-    margin-left: 90%;
+    margin-left: 85%;
     margin-top: 30px;
 }
 #butt6 a {
@@ -891,6 +948,9 @@ textarea {
         height: auto;
         background-image: none;
     }
+    #word {
+        margin-top: 0%;
+    }
     #text {
         margin-top: 0%;
     }
@@ -907,9 +967,14 @@ textarea {
     #butt2 {
         border: 1px solid #B6E9FF;
     }
+    #div2 {
+        padding-top: 0%;
+    }
     #div3 {
         /* border: 1px solid red; */
         margin-top: -450px;
+        height: auto;
+        padding-bottom: 20px;
     }
     #icons99 {
         display: none;
@@ -1004,6 +1069,7 @@ textarea {
         /* background-color: rgb(245, 245, 253); */
         height: auto;
         padding-bottom: 20px;
+        margin-top: 0px;
     }
     #about {
         margin-top: 20px;
@@ -1035,7 +1101,7 @@ textarea {
         border-radius: 15px;
     }
     #div5 {
-        margin-top: 70px;
+        margin-top: 0px;
         text-align: justify;
         height: auto;
         background-image: url(images/Rectangle\ 50\ Crop.png);
@@ -1077,9 +1143,14 @@ textarea {
     }
     #div7 {
         padding-top: 0%;
+        padding-bottom: 20px;
     }
     #div7 h3 {
         margin-top: 40px;
+        margin-bottom: 0px;
+    }
+    #div7-subDiv1 {
+        margin-top: 0%;
     }
     /* #div7-subDiv1 {
         margin-top: -30px;
@@ -1155,6 +1226,7 @@ textarea {
     #div9 {
         height: auto;
         width: 100%;
+        margin-top: 40px;
     }
     #div9 p {
         font-size: 26px;
@@ -1201,6 +1273,9 @@ textarea {
         margin-left: auto;
         margin-right: auto;
         /* border: 1px solid red; */
+    }
+    #div9 div.slideshow-container {
+        margin-left: 30%;
     }
     #div10 {
         display: block;
@@ -1264,10 +1339,14 @@ textarea {
     }
     #butt6 {
         transform: translateY(-45px);
+        margin-left: 89%;
     }
     #div11 {
         height: auto;
         text-align: center;
+    }
+    #div12 {
+        margin-top: -20px;
     }
     
 }
