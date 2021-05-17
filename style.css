@@ -17,7 +17,7 @@
     position: fixed;
     padding-left: 8%;
     padding-right: 8%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
 } 
 .logo {
     /* width: 50px; */
@@ -44,6 +44,13 @@ nav ul li a {
     font-size: 14px;
 }
 nav ul li a:hover {
+    color: #3197C2;
+}
+/* nav ul li a:visited {
+    border: 1px solid blue;
+    background-color: blue;
+} */
+.home {
     color: #3197C2;
 }
 .login {
@@ -157,6 +164,7 @@ nav ul li a:hover {
 }
 #img1 img {
     width: 100%;
+    height: 250px;
 }
 #subDiv1 {
     background-color: rgba(49, 151, 194, 0.7);
@@ -169,7 +177,7 @@ nav ul li a:hover {
     padding-top: 6%;
     border-radius: 25.3727px 25.3727px 13.041px 13.041px;
     /* transform: translate(18px, 186px);    */
-    margin-top: -80px;
+    margin-top: -108px;
     margin-left: 6px;
 }
 #subDiv1 h6 {
@@ -200,7 +208,7 @@ nav ul li a:hover {
     font-size: 17px;
 }
 #subDiv2 p {
-    font-size: 12px;
+    font-size: 15px;
 }
 #img3 img {
     width: 100%;
@@ -257,6 +265,8 @@ nav ul li a:hover {
     height: 905px;
     background-image: url(images/Rectangle\ 29.png);
     background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 #about {
     /* border: 1px solid blue; */
@@ -281,7 +291,7 @@ nav ul li a:hover {
     padding: 10px;
     background-color: #3197C2;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 0px;
     border: 1px solid #3197C2;
     height: 50px;
 }
@@ -311,7 +321,14 @@ nav ul li a:hover {
     color: #B93737;
     margin-bottom: 30px;
 }
-#profDoc #flex img.last-img {
+.impact {
+    color: #B93737;
+    text-align: left;
+    padding-left: 8%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#profDoc #flex img {
     height: auto;
 }
 #butt5 {
@@ -934,7 +951,7 @@ textarea {
 @media only screen and  (min-width:321px) and (max-width:540px) {
     nav ul {
         width: 100%;
-        background: #C4C4C4;
+        background: white;
         position: absolute;
         top: 85px;
         right: 0;
@@ -944,6 +961,10 @@ textarea {
         display: block;
         margin-top: 10px;
         margin-bottom: 10px;
+        text-align: center;
+    }
+    .login {
+        margin-left: 0px;
     }
     .menu-icon {
         display: block;
@@ -1020,7 +1041,7 @@ textarea {
         margin-left: 0;
         margin-top: -50px;
         border-radius: 10px;
-        margin-top: -170px;
+        margin-top: -175px;
         margin-left: 52%;
         padding: 10px;
     }
@@ -1102,6 +1123,7 @@ textarea {
     }
     #hide {
         display: block;
+        text-align: justify;
     }
     #butt4 {
         width: 100%;
@@ -1116,8 +1138,12 @@ textarea {
         height: auto;
         background-image: url(images/Rectangle\ 50\ Crop.png);
     }
-    #chooseUs h3 {
-        margin-top: -220px;
+    #chooseUs {
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+    #chooseUs h1 {
+        margin-top: 0px;
     }
     #butt5 {
         margin-top: 20px;
