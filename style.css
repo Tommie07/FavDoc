@@ -286,6 +286,15 @@ nav ul li a:hover {
     border-radius: 10px;
     margin-right: 10px;
 }
+#chooseUs img {
+    border: 1px solid white;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
 #butt4 {
     width: 200px;
     padding: 10px;
@@ -315,13 +324,13 @@ nav ul li a:hover {
     padding-right: 8%;
 }
 #chooseUs {
-    margin-top: 250px;
+    margin-top: 100px;
 }
 #chooseUs h1 {
     color: #B93737;
     margin-bottom: 30px;
 }
-.impact {
+h1.impact {
     color: #B93737;
     text-align: left;
     padding-left: 8%;
@@ -329,6 +338,9 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 #profDoc #flex img {
+    height: auto;
+}
+#chooseUs #flex img {
     height: auto;
 }
 #butt5 {
@@ -402,6 +414,12 @@ nav ul li a:hover {
 }
 #hide {
     display: none;
+}
+#hide1 {
+    display: none;
+}
+#show {
+    text-align: justify;
 }
 #flex1 {
     display: flex;
@@ -735,6 +753,10 @@ textarea {
         margin-left: 0;
         margin-top: 0;
     }
+    #chooseUs {
+        margin-left: 0;
+        margin-top: 0;
+    }
     #flex {
         margin-top: 0;
         margin-left: -15px;
@@ -985,11 +1007,15 @@ textarea {
     #text {
         margin-top: 0%;
     }
+    #text p#show1 {
+        padding-right: 8%;
+        text-align: justify;
+    }
     #hide-img {
         display: block;
         width: 100%;
         height: 100%;
-        margin-left: -10px;
+        padding-right: 8%;
         margin-bottom: 20px;
     }
     #butt1, #butt2 {
@@ -999,7 +1025,11 @@ textarea {
         border: 1px solid #B6E9FF;
     }
     #div2 {
-        padding-top: 0%;
+        padding-top: 0;
+    }
+    #service {
+        padding-right: 5%;
+        text-align: justify;
     }
     #div3 {
         /* border: 1px solid red; */
@@ -1106,13 +1136,32 @@ textarea {
         margin-top: 20px;
         margin-left: -60px;
     }
+    #about p {
+        padding-right: 0%;
+        text-align: justify;
+    }
     #profDoc {
         margin-left: 0;
         margin-top: 0;
     }
+    #chooseUs {
+        margin-left: 0px;
+        margin-top: 0;
+        padding-left: 4%;
+        
+    }
+    #profDoc #flex div p#hide {
+        padding-right: 0%;
+        text-align: justify;
+    }
+    #chooseUs #flex div p#hide {
+        padding-right: 0%;
+        text-align: justify;
+    }
     #flex {
         margin-top: 0;
         margin-left: -15px;
+        width: 100%;
     }
     #flex div {
         margin-top: 0%;
@@ -1123,7 +1172,8 @@ textarea {
     }
     #hide {
         display: block;
-        text-align: justify;
+        text-align: left;
+        padding-right: 8%
     }
     #butt4 {
         width: 100%;
@@ -1445,6 +1495,12 @@ textarea {
     #text {
         margin-top: 0%;
     }
+    #show1 {
+        display: none;
+    }
+    #hide1 {
+        display: block;
+    }
     #butt1, #butt2 {
         margin-top: 10px;
     }
@@ -1460,7 +1516,6 @@ textarea {
         height: 150px;
         margin-left: -10px;
         margin-top: 80px;
-        
     }
     #icons99 {
         display: none;
@@ -1555,9 +1610,20 @@ textarea {
         margin-left: 0;
         margin-top: 0;
     }
-    #flex {
+    #profDoc #flex{
         margin-top: 0;
         margin-left: -15px;
+        width: 100%;
+    }
+    #chooseUs {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #chooseUs #flex {
+        margin-top: 0;
+        margin-left: -15px;
+        width: 100%;
     }
     #flex div {
         margin-top: 0%;
@@ -1757,6 +1823,9 @@ textarea {
         margin-right: auto;
         /* border: 1px solid red; */
     }
+    #div9 div.slideshow-container {
+        margin-left: 30%;
+    }
     #div10 {
         display: block;
         margin-left: -5%;
@@ -1819,6 +1888,7 @@ textarea {
     }
     #butt6 {
         transform: translateY(-45px);
+        margin-left: 94%;
     }
     #div11 {
         height: auto;
@@ -1854,6 +1924,12 @@ textarea {
     #text {
         margin-top: 0%;
     }
+    #show1 {
+        display: none;
+    }
+    #hide1 {
+        display: block;
+    }
     #butt1, #butt2 {
         margin-top: 10px;
     }
@@ -1868,8 +1944,7 @@ textarea {
         width: 50%;
         height: 150px;
         margin-left: -10px;
-        margin-top: 80px;
-        
+        margin-top: 80px; 
     }
     #icons99 {
         display: none;
@@ -1964,9 +2039,20 @@ textarea {
         margin-left: 0;
         margin-top: 0;
     }
-    #flex {
+    #profDoc #flex{
         margin-top: 0;
         margin-left: -15px;
+        width: 100%;
+    }
+    #chooseUs {
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #chooseUs #flex {
+        margin-top: 0;
+        margin-left: -15px;
+        width: 100%;
     }
     #flex div {
         margin-top: 0%;
@@ -2166,6 +2252,9 @@ textarea {
         margin-right: auto;
         /* border: 1px solid red; */
     }
+    #div9 div.slideshow-container {
+        margin-left: 30%;
+    }
     #div10 {
         display: block;
         margin-left: -5%;
@@ -2228,6 +2317,7 @@ textarea {
     }
     #butt6 {
         transform: translateY(-45px);
+        margin-left: 94%;
     }
     #div11 {
         height: auto;
@@ -2288,7 +2378,8 @@ textarea {
         background-image: url(images/Rectangle\ 50\ Crop.png);
     }
     #chooseUs {
-        margin-top: 150px;
+        margin-top: 50px;
+        width: 145%;
     }
     #super-container #wrapper #slides {
         margin-right: 150px;
@@ -2302,5 +2393,16 @@ textarea {
     #playstore {
         margin-left: 0%;
     }
-    
+    #flex {
+        width: 100%;
+    }
+    textarea {
+        width: 25%;
+    }
+    #butt6 {
+        margin-left: 80%;
+    }
+    #div9 div.slideshow-container {
+        margin-left: 30%;
+    }
 }
