@@ -1,0 +1,101 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="style.css" />
+        <link 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" 
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <div class="loginFullPage">
+            <div id="navbar">
+                <a href="home.html"><img src="images/logo.png" alt="" class="logo"></a>
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="">Career</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html" class="login" class="home">Login</a></li>
+                        <!-- <button class="butt"><a href="">Sign Up</a></button> -->
+                    </ul>
+                </nav>
+                <img src="images/bars-solid.svg" alt="" class="menu-icon" onclick="togglemenu()">
+            </div>
+
+            <div class="login-div1">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="login-details">
+                            <h3>
+                                Please, <br>
+                                Provide your login details
+                            </h3>
+                            <form action="">
+                                <div  id="loginForm-box">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Username or Email">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="password" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div>
+                                    <button><a href="">Login</a><i class="fas fa-sign-in-alt"></i></button>
+                                    <p>
+                                        or login with 
+                                    </p>
+                                    <p>
+                                        <img src="images/Vector.svg" alt="">
+                                        <img src="images/gmail.svg" alt="">
+                                        <img src="images/Vector (1).png" alt="">
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <script>
+            var menulist = document.getElementById(menuList);
+
+            menuList.style.maxHeight = "0px";
+
+            function togglemenu() {
+                if(menuList.style.maxHeight == "0px") {
+                    menuList.style.maxHeight = "250px";
+                }
+                else {
+                    menuList.style.maxHeight = "0px";
+                }
+            }
+        </script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+            integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
