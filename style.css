@@ -1728,6 +1728,9 @@ input[type=email] {
     #social h6 {
         margin-bottom: 10px;
     }
+    #twitt-space {
+        margin-left: 8px !important;
+    }
     #message {
         /* border: 1px solid green; */
         margin-left: -5px;
