@@ -1306,11 +1306,18 @@ input[type=email] {
         overflow: hidden;
         transition: 1.0s;
     }
+    .butt {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
     #div1 {
         width: 100%;
         padding-right: 0%;
         height: auto;
         background-image: none;
+        /* border: 1px solid red; */
     }
     #word {
         margin-top: 0%;
@@ -1343,17 +1350,17 @@ input[type=email] {
         /* text-align: justify; */
     }
     #div3 {
-        /* border: 1px solid red; */
-        margin-top: -450px;
+        /* border: 1px solid blue; */
+        /* margin-top: -450px; */
         height: auto;
         padding-bottom: 20px;
     }
     #icons99 {
         display: none;
     }
-    #img1 {
+    /* #img1 {
         margin-top: 450px;
-    }
+    } */
     #img2, #img3, #img4 {
         margin-top: 20px;
     }
@@ -1732,10 +1739,14 @@ input[type=email] {
     #social {
         width: 35%;
         margin-left: 65%;
-        margin-top: -97px;
+        margin-top: -145px;
     }
     #social h6 {
         margin-bottom: 10px;
+    }
+    .terms {
+        text-align: left;
+        display: block;
     }
     #twitt-space {
         margin-left: 8px !important;
@@ -2298,10 +2309,14 @@ input[type=email] {
     #social {
         width: 35%;
         margin-left: 65%;
-        margin-top: -87px;
+        margin-top: -145px;
     }
     #social h6 {
         margin-bottom: 10px;
+    }
+    .terms {
+        text-align: left;
+        display: block;
     }
     #message {
         /* border: 1px solid green; */
@@ -2819,10 +2834,14 @@ input[type=email] {
     #social {
         width: 35%;
         margin-left: 65%;
-        margin-top: -87px;
+        margin-top: -145px;
     }
     #social h6 {
         margin-bottom: 10px;
+    }
+    .terms {
+        text-align: left;
+        display: block;
     }
     #message {
         /* border: 1px solid green; */
@@ -2949,7 +2968,7 @@ input[type=email] {
         height: 150px;
     }
     #div4 {
-        height: 700px;
+        height: auto;
         background-image: url(images/Rectangle\ 30.png);
     }
     #butt5 {
@@ -2960,7 +2979,7 @@ input[type=email] {
         margin-top: 100px;
     }
     #div5 {
-        height: 800px;
+        height: auto;
         background-image: url(images/Rectangle\ 50\ Crop.png);
     }
     #chooseUs {
