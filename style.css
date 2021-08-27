@@ -756,6 +756,9 @@ textarea {
     padding-right: 12%;
     color: #343434;
 }
+#hide65, #hide66 {
+    display: none;
+}
 #getappMain {
     border: 1px solid #3197C2;
     border-radius: 30px;
@@ -1846,6 +1849,13 @@ input[type=email] {
         padding-left: 10%;
         padding-right: 10%;
     }
+    #show65, #show66 {
+        display: none;
+    }
+    #hide65, #hide66 {
+        display: inline-block;
+        height: 150px;
+    }
     .div2-text {
         margin-top: 20px;
     }
@@ -2406,6 +2416,13 @@ input[type=email] {
         display: flex !important;
         padding-left: 10%;
         padding-right: 10%;
+    }
+    #show65, #show66 {
+        display: none;
+    }
+    #hide65, #hide66 {
+        display: inline-block;
+        height: 200px;
     }
     .div2-text {
         margin-top: 20px;
